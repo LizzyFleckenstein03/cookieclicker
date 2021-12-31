@@ -1,6 +1,5 @@
 body{background-image:url(table.jpg)}
 #cookie{height:200px;width:200px;border-radius:50%;background-image:url(cookie.png);position:relative;cursor:pointer;background-size:cover}
-[name=disp]{font-family:fantasy;font-weight:bold;font-size:50px;}
-#playerinfo{background-color:white;position:absolute;top:30px;left:30px;width:500px;height:65px;font-family:fantasy;font-size:50px}
+[name=disp]{font-weight:bold;font-size:50px;}
+#playerinfo{background-color:white;position:absolute;top:30px;left:30px;width:500px;height:65px;font-size:50px}
 #freq{width:200px;height:200px;position:absolute;top:5px;right:5px;background-color:green}
-[name=freqdis]{font-family:fantasy}
