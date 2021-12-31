@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html onmouseup="up()">
+<head>
+	<script defer src="init.js"></script>
+	<script defer src="game.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Cookieclicker</title>
+</head>
+<body>
+<center>
+	
+	<div id="cookie" onclick="clicked();" onmousedown="down()" ></div>
+	<br>
+<span name="disp"></span><noscript><span name="disp">&ensp;Enable Javascript to get</span></noscript><span name="disp">&ensp;COOKIES</span><br>
+<span id="messages" style="font-family:fantasy;font-size:30px;position:absolute;top:40px;opacity:1;"></span>
+</center>
+<center>
+<span id="playerinfo">
+</span>
+</center>
+<div style="position:absolute;bottom:55px;left:5px;" name="info">
+<div style="display:inline;background-color:blue;border-radius:50%;">&ensp;i&ensp;</div>
+<span>This Website (obviously) uses Cookies to save your Progress.&ensp;</span><button onclick="document.getElementsByName('info')[0].style.visibility='hidden'"style="color:black;position:relative;top:-1px;background-color:red;border-style:none;border-radius:0%">X</button>
+</div>
+
+<div style="position:absolute;bottom:30px;left:5px;" name="info">
+<div style="display:inline;background-color:blue;border-radius:50%;">&ensp;i&ensp;</div>
+<span>Using a autoclicker is silly because if you are hobbyless enough to cheat you can just use the Console.&ensp;</span><button onclick="document.getElementsByName('info')[1].style.visibility='hidden'" style="color:black;position:relative;top:-1px;background-color:red;border-style:none;border-radius:0%">X</button>
+</div>
+
+<div style="position:absolute;bottom:5px;left:5px;" name="info">
+<div style="display:inline;background-color:blue;border-radius:50%;">&ensp;i&ensp;</div>
+<span>Most information on websites is just trash.&ensp;</span><button style="color:black;position:relative;top:-1px;background-color:red;border-style:none;border-radius:0%" onclick="document.getElementsByName('info')[2].style.visibility='hidden'">X</button>
+</div>
+<div id="freq"><center><span name="freqdis" style="font-size:100px">0</span><br><span name="freqdis">Clicks per Second</span></center></div>
+</body>
+</html>
